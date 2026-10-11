@@ -26,6 +26,8 @@ def main():
     #plot data visualization (THIS DOESN"T WORK FOR SOME REASON)
     parser.add_argument('--plot', type=str, choices=['price_dist', 'neighborhood'], help='Export plot as JPG/PNG')
     ####
+
+    # parse the command-line arguments means that the user's input from the command line is captured and stored in the args variable
     args = parser.parse_args()
 
     # Initialize DataHandler and Visualization classes, and handle CLI commands
